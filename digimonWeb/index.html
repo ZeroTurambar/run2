@@ -19,9 +19,6 @@
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
         <div class="title">DigimonBotTwitch</div>
-      </div>
-    </div>
-  </body>
   <script>
 		function FixInputOnSubmit() {
 			document.getElementById("fixInput").blur();
@@ -33,4 +30,8 @@
 			<input type="text" id="fixInput" oninput="gameInstance.Module.ccall('FixInputUpdate', null)" onblur="gameInstance.Module.ccall('FixInputOnBlur', null)" style="font-size: 42px;">
 		</form>
 	</div>
+      </div>
+    </div>
+  </body>
+
 </html>
